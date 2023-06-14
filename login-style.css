@@ -1,0 +1,49 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+html {
+	font-size: 18px;
+}
+
+body {
+	font-size: 1em;
+}
+
+#login {
+	width: 400px;
+	max-width: 100%;
+}
+
+.login form {
+	border: 0;
+	box-shadow: 0.325rem 0.325rem 3em rgba(0,0,0,0.15);
+	margin-top: 2em;
+}
+
+.login label {
+	font-size: 0.8888888889rem;
+}
+
+.login form .input,
+.login input[type="text"],
+.login input[type="password"] {
+	margin-bottom: 1em;
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-primary,
+.wp-core-ui .button-secondary {
+	font-size: 1rem;
+}
+
+.wp-core-ui .button.button-large,
+.wp-core-ui .button-group.button-large .button {
+	padding: 0 1em;
+}
+
+.login #nav,
+.login #backtoblog,
+.privacy-policy-page-link {
+	font-size: 0.8888888889rem;
+}
